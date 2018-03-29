@@ -18,8 +18,8 @@
 	</style>
 		
 <body>
-	<img src="Capture.PNG">
-	<H1>
+	<center><img src="Capture.PNG"width="180"height="180"></centre>
+	<H1 style="color:green">
 		<script>
 		<?php
 		$myfile = fopen("s1.txt", "r") or die("Unable to open file!");
@@ -41,9 +41,9 @@
 			
 		}
 		</script>
-			<center>
+			<hr><center>
 		WIRELESS PID ALARM
-		</center>
+		</center><hr>
 	</H1>
 	<center>
 	
@@ -53,20 +53,22 @@
 	<!--Google Maps <a href="" id="burl" >| Link |</a><br>-->
 	
 	
-	PATIENT REQUEST: = <input type="text" value="<?php echo @$dataa1;?>"/><br/>
-	PATIENT ROOM NO: = <input type="text" value="<?php echo @$dataa2;?>"/><br/>
-	PATIENT BED NO: = <input type="text" value="<?php echo @$dataa3;?>"/><br/>
+	PATIENT REQUEST: <br> <input type="text" value="<?php echo @$dataa1;?>"/><br/>
+	PATIENT ROOM NO: <br> <input type="text" value="<?php echo @$dataa2;?>"/><br/>
+	PATIENT BED NO: <br> <input type="text" value="<?php echo @$dataa3;?>"/><br/>
 	
 	
 	
 	</H3>
 	<hr />
     <form action="action.php" method = "GET">
-	ACCEPT: <input type = "submit" style="width:160px;" name = "b1" value="ON"/><br /><br />
+	<input type = "submit" style="width:160px;" name = "b1" value="ACCEPT"/><br /><br />
 	<input type = "submit" style="width:160px;" name = "b1" value="Refresh"/><br /><br />
-
     </form>
 	</center>
+	<marquee>
+	<H4 style="color:red">Press ACCEPT for acknowledging patient's request</H4>
+    </marquee>
 	    
 	<meta HTTP-EQUIV="Refresh" CONTENT="3">
 </body>
