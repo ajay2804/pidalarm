@@ -70,6 +70,6 @@
 	<H4 style="color:red">Press ACCEPT for acknowledging patient's request</H4>
     </marquee>
 	    
-	<meta HTTP-EQUIV="Refresh" CONTENT="3">
+	<meta HTTP-EQUIV="Refresh" CONTENT="15">
 </body>
 </html>

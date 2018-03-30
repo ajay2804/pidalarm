@@ -41,9 +41,9 @@
 			
 		}
 		</script>
-			<center>
+			<hr><center>
 		WIRELESS PID ALARM
-		</center>
+		</center><hr>
 	</H1>
 	<center>
 	
@@ -70,6 +70,6 @@
 	<H4 style="color:red">Press ACCEPT for acknowledging patient's request</H4>
     </marquee>
 	    
-	<meta HTTP-EQUIV="Refresh" CONTENT="3">
+	<meta HTTP-EQUIV="Refresh" CONTENT="20">
 </body>
 </html>
